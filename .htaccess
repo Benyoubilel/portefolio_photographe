@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^bilelbenyoussefphotography\.tn$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bilelbenyoussefphotography\.tn$
+RewriteRule ^/?$ "http\:\/\/www\.bilelbenyoussefphotography\.tn\/" [R=301,L]
+
