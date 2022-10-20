@@ -1,5 +1,5 @@
 <?php
-session_start(); // DEMARRE LA SESSION
+// DEMARRE LA SESSION
 // SAUVGARDE LA VARIABLE hits DANS LE FICHIER DE SESSION
 $hits =0;
 

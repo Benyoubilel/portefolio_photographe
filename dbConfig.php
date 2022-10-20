@@ -1,10 +1,10 @@
 <?php
-session_start();
 
-$user = 'jrxajqch_admin';
-$password = 'root';
-// $dsn = 'mysql:host=102.219.176.39;dbname=jrxajqch_photographe';
-$dsn = 'mysql:host=127.0.0.1;dbname=jrxajqch_photographe';
+
+$user = 'root';
+$password = '';
+// $dsn = 'mysql://localhost:3306;dbname=jrxajqch_photographe';
+$dsn = 'mysql:host=localhost:3306;dbname=epiz_32830045_photographe';
 global $dbh;
 try {
     $dbh = new PDO($dsn, $user, $password);

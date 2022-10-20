@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `jrxajqch_photographe`
 --
-
+jdbc:mysql://localhost:3306
 -- --------------------------------------------------------
 
 --
@@ -96,10 +96,6 @@ CREATE TABLE `user` (
 --
 -- Déchargement des données de la table `user`
 --
-
-INSERT INTO `user` (`id`, `login`, `password`) VALUES
-(1, 'bilel@ben-youssef.fr', 'e90a43bd25cc4b69087422d229d3963e');
-
 --
 -- Index pour les tables déchargées
 --

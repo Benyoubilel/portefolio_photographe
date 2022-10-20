@@ -2,6 +2,7 @@
 include('dbConfig.php');
 include('compteur.php');
 //sortir les photo de la base
+/** @var TYPE_NAME $dbh */
 $sth = $dbh->query("select * from images");
 $result = $sth->fetchAll(PDO::FETCH_BOTH);
 
@@ -217,7 +218,7 @@ if($insert){
             <a href="https://github.com/Benyoubilel" target="_blank"><i class="fa-brands fa-github"></i></a>
            <a href="https://wa.me/21653509030" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
         </p>
-              <p>Copyright &copy; 2022 Bilel ben youssef </p>
+              <p>Copyright &copy; 2022 <a href="https://bilelbenyoussef.me" target="_blank">Bilel ben youssef </a></p>
           </div>
         </footer>
 
